@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B9E915A32D1372BC00E641AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9159F2D1372BC00E641AB /* ContentView.swift */; };
+		B9E915A42D1372BC00E641AB /* Robotics_FolderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E915A02D1372BC00E641AB /* Robotics_FolderApp.swift */; };
+		B9E915A52D1372BC00E641AB /* Title Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E915A12D1372BC00E641AB /* Title Page.swift */; };
+		B9E915A62D1372BC00E641AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E9159C2D1372BC00E641AB /* Preview Assets.xcassets */; };
+		B9E915A72D1372BC00E641AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E9159E2D1372BC00E641AB /* Assets.xcassets */; };
+		B9E915A92D1372EE00E641AB /* hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E915A82D1372EE00E641AB /* hex.swift */; };
+		B9E915AB2D13733F00E641AB /* Demographics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E915AA2D13733F00E641AB /* Demographics.swift */; };
+		B9E915AD2D13746100E641AB /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E915AC2D13746100E641AB /* About.swift */; };
+		B9E915AF2D13939800E641AB /* ArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E915AE2D13939800E641AB /* ArrowShape.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B9E915892D13702500E641AB /* Robotics Folder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robotics Folder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E9159C2D1372BC00E641AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9E9159E2D1372BC00E641AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E9159F2D1372BC00E641AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9E915A02D1372BC00E641AB /* Robotics_FolderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robotics_FolderApp.swift; sourceTree = "<group>"; };
+		B9E915A12D1372BC00E641AB /* Title Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Title Page.swift"; sourceTree = "<group>"; };
+		B9E915A82D1372EE00E641AB /* hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hex.swift; sourceTree = "<group>"; };
+		B9E915AA2D13733F00E641AB /* Demographics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demographics.swift; sourceTree = "<group>"; };
+		B9E915AC2D13746100E641AB /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		B9E915AE2D13939800E641AB /* ArrowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B9E9158B2D13702500E641AB /* Robotics Folder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Robotics Folder";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B9E915862D13702500E641AB /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		B9E915802D13702500E641AB = {
 			isa = PBXGroup;
 			children = (
-				B9E9158B2D13702500E641AB /* Robotics Folder */,
+				B9E915A22D1372BC00E641AB /* Robotics Folder */,
 				B9E9158A2D13702500E641AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,30 @@
 				B9E915892D13702500E641AB /* Robotics Folder.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E9159D2D1372BC00E641AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9E9159C2D1372BC00E641AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9E915A22D1372BC00E641AB /* Robotics Folder */ = {
+			isa = PBXGroup;
+			children = (
+				B9E9159D2D1372BC00E641AB /* Preview Content */,
+				B9E9159E2D1372BC00E641AB /* Assets.xcassets */,
+				B9E9159F2D1372BC00E641AB /* ContentView.swift */,
+				B9E915A12D1372BC00E641AB /* Title Page.swift */,
+				B9E915AA2D13733F00E641AB /* Demographics.swift */,
+				B9E915AC2D13746100E641AB /* About.swift */,
+				B9E915A82D1372EE00E641AB /* hex.swift */,
+				B9E915AE2D13939800E641AB /* ArrowShape.swift */,
+				B9E915A02D1372BC00E641AB /* Robotics_FolderApp.swift */,
+			);
+			path = "Robotics Folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +96,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B9E9158B2D13702500E641AB /* Robotics Folder */,
 			);
 			name = "Robotics Folder";
 			packageProductDependencies = (
@@ -109,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E915A62D1372BC00E641AB /* Preview Assets.xcassets in Resources */,
+				B9E915A72D1372BC00E641AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E915AF2D13939800E641AB /* ArrowShape.swift in Sources */,
+				B9E915A32D1372BC00E641AB /* ContentView.swift in Sources */,
+				B9E915AD2D13746100E641AB /* About.swift in Sources */,
+				B9E915AB2D13733F00E641AB /* Demographics.swift in Sources */,
+				B9E915A92D1372EE00E641AB /* hex.swift in Sources */,
+				B9E915A42D1372BC00E641AB /* Robotics_FolderApp.swift in Sources */,
+				B9E915A52D1372BC00E641AB /* Title Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
